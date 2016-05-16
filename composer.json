@@ -1,0 +1,20 @@
+{
+	"name": "web-feet/dotmailer-newsletter-plugin",
+	"description": "Integrates dotmailer API functionality with WordPress.",
+	"keywords": ["dotmailer api, dotmailer, dotmailer newsletter"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Taylor Liesnham",
+			"email": "taylor@web-feet.co.uk",
+			"homepage": "https://www.web-feet.co.uk"
+		}
+	],
+	"type": "wordpress-plugin",
+	"require": {
+		"php": ">=5.3.2",
+		"composer/installers": "v1.0.6",
+		"romanpitak/dotmailer-api-v2-client": "v1.1.2",
+		"guzzlehttp/guzzle": "6.x"
+	}
+}
